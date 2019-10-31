@@ -1,0 +1,102 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //EX1 (erro)
+            //int a, b, c;
+            //Console.Write("Insira um número: ");
+            //a= Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Insira outro número: ");
+            //b= Convert.ToInt32(Console.ReadLine());
+
+            //if (a >= b)
+            //{
+            //    c = a % b;
+            //    Console.Write(" O resto da divisão de {0} por {1} é {2}", a, b, c);
+            //    if (c == 0)
+            //        Console.WriteLine("[0} é divisor de {1}", b, a);  
+            //    else
+            //        Console.WriteLine("[0} não é divisor de {1}", b, a);
+            //}
+            //else
+            //{
+            //    c = b % a;
+            //    Console.Write(" O resto da divisão de {0} por {1} é {2}\n", b, a, c);
+            //    if (c == 0)
+            //    {
+            //        Console.WriteLine("[0} é divisor de {1}", a, b);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("[0} não é divisor de {1}", a, b);
+            //    }
+
+            //} EX2
+            //int min, max, i,soma=0;
+            //Console.Write("Defina o limite mínimo do intervalo: ");
+            //min = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Defina o limite máximo do intervalo: ");
+            //max = Convert.ToInt32(Console.ReadLine());
+            //for (int n = min; n <= max; n++)
+            //{
+            //    for (i = 2; i <= Math.Sqrt(n); i++)
+            //        if (n % i == 0)
+            //            break;
+            //    if (i > Math.Sqrt(n))
+            //        soma+=n;
+            //}
+            //Console.WriteLine(soma);
+
+            //int n, v = 0;
+            //Console.Write("Insira um número inteiro: ");
+            //n = Convert.ToInt32(Console.ReadLine());
+            //while (n != 0)
+            //{
+            //    Console.WriteLine(n % 10);
+            //    n /= 10;
+
+            //    if (n % 2 != 0)
+            //    {
+            //        Console.Write(n);
+            //    }
+
+            //EX3 (inacabado)
+            //int n,g,minF=21, maxF=-2,somaF=0,contF=0,minM=21,maxM=-2,somaM=0,contM=0;
+            //Console.Write("Nota: ");
+            //n =Convert.ToInt32(Console.ReadLine());
+            //do
+            //{
+            //    Console.Write("Nota: ");
+            //    n=Convert.ToInt32(Console.ReadLine());
+            //    Console.Write("Nota (1-M\t2-F: ");
+            //    g=Convert.ToInt32(Console.ReadLine());
+            //    if(g==1)
+            //    {
+            //        if(n>maxM)
+            //            maxM = n;
+            //        if(n<minM)
+            //            minM = n;
+            //        contM++;
+            //        somaM+=n;
+            //    }
+            //    else
+            //    {
+            //        if(n>maxF)
+            //            maxF = n;
+            //        if(n<minF)
+            //            minF = n;
+            //        contF++;
+            //        somaF+=n;
+            //    }
+            //}
+            //while (n!=-1);
+            //Console.WriteLine("MAsculino: \tmax:  ")
+
