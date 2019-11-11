@@ -1,0 +1,75 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*int num, i=0;
+            long soma=0;
+            Console.Write("Insira um número decimal para ser convertido em binário: ");
+            num = Convert.ToInt32(Console.ReadLine());
+            do
+            {
+                soma += num % 2 * (long)Math.Pow(10, i++); // O "(long)" antes do Math.Pow serve para converter o valor adquirido em long.
+                num /= 2;
+
+            }
+            while (num > 0);
+            Console.WriteLine("Binário: {0}",soma); */
+
+
+            /*int num, i = 0;
+            long soma = 0;
+            Console.Write("Insira um número binário para ser convertido em decimal: ");
+            num = Convert.ToInt32(Console.ReadLine());
+            do
+            {
+                soma += num % 2 * (long)Math.Pow(2, i++); // O "(long)" antes do Math.Pow serve para converter o valor adquirido em long.
+                num /= 10;
+
+            }
+            while (num > 0);
+            Console.WriteLine("Decimal: {0}", soma); */
+
+            /*EX29
+            int e4,e11,e17,a,soma=0;
+            Console.WriteLine("Quantos bilhetes gratuitos? (até aos 4 anos): ");
+            e4 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Quantos bilhetes entre 5 e 11 anos?: ");
+            e11 = Convert.ToInt32(Console.ReadLine());
+            soma+=e11*6;
+            Console.WriteLine("Quantos bilhetes entre os 12 e os 17?: ");
+            e17 = Convert.ToInt32(Console.ReadLine());
+            soma+=e17*12;
+            Console.WriteLine("Quantos bilhetes de adulto?: ");
+            a = Convert.ToInt32(Console.ReadLine());
+            soma += a*18;
+            Console.Clear();
+            Console.WriteLine("Bilhetes gratuitos:\t\t{0}x{1}",e4,0,e4*0);
+            Console.WriteLine("Bilhetes 5-11:\t\t\t{0}x{1}",e11,6,e11*6);
+            Console.WriteLine("Bilhetes 12-17:\t\t\t{0}x{1}",e17,12,e17*12);
+            Console.WriteLine("Bilhetes adulto:\t\t{0}x{1}",a,18,a*18);
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("Total:\t\t\t\t     {0}", soma); */
+
+            //EX30
+           /* int n, u,r,num=0;
+            do
+            {
+            n=++num;
+            u = n % 10;
+            r = n / 10;
+            n /= 10;
+            while (n > 0)
+            {
+                u *= 10;
+                n /= 10;
+            }
+            }while(5*num != u + r);
+            Console.WriteLine(num); */
