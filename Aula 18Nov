@@ -1,0 +1,121 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+
+        //static void impAster(int N)
+        //{
+        //    for (int i = 0; i < N; i++)
+        //        Console.Write("*");
+        //    Console.WriteLine();
+        //}
+        //static void Main()
+        //{
+        //    int num, M;
+        //    Console.Write("Quantos asteriscos queres? ");
+        //    num = Convert.ToInt32(Console.ReadLine());
+        //    Console.Write("Quantas linhas queres? ");
+        //    M = Convert.ToInt32(Console.ReadLine());
+        //    for (int i = 0; i < M; i++)
+        //        impAster(num);
+        //}
+
+        //static int Soma(int a, int b)
+        //{
+        //    return a + b;
+        //}
+        //static int Sub(int a, int b)
+        //{
+        //    return a - b;
+        //}
+        //static int Mult(int a, int b)
+        //{
+        //    return a * b;
+        //}
+        //static float Div(int a, int b)
+        //{
+        //    return (float)a / b;
+        //}
+        //static void Main(string[] args)
+        //{
+        //int a, b;
+        //string op="";
+        //while (op != "s")
+        //{
+        //Console.Write("Operador: ");            
+        //op = Console.ReadLine();
+        //Console.Write("1º operando: ");
+        //a = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("2º operando: ");
+        //b = Convert.ToInt32(Console.ReadLine());
+        //switch (op)
+        //    {
+        //        case ("+"):
+        //            Console.WriteLine(Soma(a, b));
+        //            break;
+        //        case ("-"):
+        //            Console.WriteLine(Sub(a, b));
+        //            break;
+        //        case ("*"):
+        //            Console.WriteLine(Mult(a, b));
+        //            break;
+        //        case ("/"):
+        //            Console.WriteLine(Div(a, b));
+        //            break;
+        //        default:
+        //            Console.WriteLine("Operador inválido");
+        //            break;
+        //    }
+        //Console.Write("Operador: ");
+        //op = Console.ReadLine();
+        //}
+
+        //static int Max(int a, int b)
+        //{
+        //    if (a>=b){
+        //        return (a);
+        //    }
+        //    else 
+        //        return (b);
+        //}
+        //static void Main()
+        //{
+        //    int a,b;
+        //    Console.Write("1º valor: ");
+        //    a = Convert.ToInt32(Console.ReadLine());
+        //    Console.Write("2º valor: ");
+        //    b = Convert.ToInt32(Console.ReadLine());
+        //    Console.WriteLine("Máximo: {0}", Max(a,b));
+        //}
+
+        static bool valida(int a)
+        {
+            if (a >= 0 && a <= 20)
+                return true;
+            else
+                return false;
+        }
+        static void Main()
+        {
+            int a, nota;
+            for (int i = 0; i < 10; i++)
+            {
+                do
+                {
+                    Console.Write("insira a nota obtida: ");
+                    nota = Convert.ToInt32(Console.ReadLine());
+                } while (valida(nota) == false);
+            }
+
+
+
+
+        }
+    }
+}
