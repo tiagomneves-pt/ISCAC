@@ -1,0 +1,95 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        //static void Main(string[] args)
+        //{
+            //Console.Write("Quantos elementos deseja para o vetor: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int[] v = new int[n];
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write("Insira um nº para a posição {0}: ", i);
+            //    v[i] = Convert.ToInt32(Console.ReadLine());
+                
+            //}
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.WriteLine("Valor na posição {0}: {1}", i, v[i]);
+                
+            //}
+
+            /*int[] v = { 3, 7, 4, 9, 2, 6, 7, 8, 9, 2 };
+            int contar = 0;
+            foreach (int i in v)
+                if (i > 5)
+                    contar++;
+            Console.WriteLine("Resultado: {0}", contar); */
+            
+            /*int[] v = { 3, 7, 4, 9, 2, 6, 7, 8, 9, 2 };
+            for (int i = 0; i < v.Length; i++)
+                if (v[i]==7)
+                {
+                    Console.WriteLine("Índice: {0}", i);
+                }*/
+
+            /*int[] v = new int[] { 3, 7, 4, 9, 2, 6, 7, 8, 9, 2 };
+            int soma = 0;
+            foreach (int i in v)
+                soma += i;
+            Console.WriteLine(" Soma: {0}\n Média: {1}", soma, (float)soma / v.Length);*/
+
+            /*int[] v = { 3, 7, 4, 9, 2, 6, 7, 8, 9, 2 };
+            int min = 0;
+            for (int i = 1; i < v.Length; i++)
+            {
+                if (v[i] < v[min])
+                    min = i;
+            }
+                Console.WriteLine("Min: {0}", min); */
+
+            //Cap7
+            //Ex 1
+            /*
+            double[] v= new double[100];
+            double soma = 0;
+            int N;
+            Console.WriteLine("Quantos nºs vai introduzir? ");
+            N = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < N; i++)
+            {
+            Console.WriteLine("Introduza um nº real: ");
+            v[i] = Convert.ToDouble(Console.ReadLine());
+            soma += v[i];
+            }
+            Console.WriteLine("Soma: {0}",soma); */
+        //}
+        //EX3
+        /*static int pesquisa(int[] v, int n)
+        {
+            int cont = 0;
+            foreach (int i in v)
+                if (i==n)
+                    cont++;
+            if (cont == 0)
+                return -1;
+            else
+                return cont;
+
+        }
+        static void Main(string[] args)
+        {
+            int[] v = { 2, 3, 6, 7, 3, 1, 4, 1, 3, 4 };
+            Console.Write("Introduza o nº a pesquisar: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("O nº {0} ocorreu {1} vezes", n, pesquisa(v, n));
+        }
+        */
+    }
+}
