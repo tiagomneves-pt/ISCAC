@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        /*static void Main(string[] args)
+        {
+            if (args.Length < 2)
+                Console.WriteLine("Número inválido de argumento");
+            else
+            {
+                try
+                {
+                    int min = Convert.ToInt32(args[0]);
+                    int max = Convert.ToInt32(args[1]);
+                    if (min < max)
+                        for (int i = min; i <= max; i++)
+                            Console.WriteLine("{0}", i);
+                    else
+                        for (int i = min; i >= max; i--)
+                            Console.Write("{0}", i);
+                }
+                catch (SystemException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+                Console.ReadKey(); 
+        } */
+
+
+        //Cap 9 
+        //Ex9
+        /*static void Main(string[] args)
+        {
+            int inf, sup;
+            string s;
+            char c;
+            Console.Write("Insira uma frase: ");
+            s = Console.ReadLine();
+REP:        try
+            {
+                Console.Write("Introduza a 1ª posição: ");
+                inf = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Introuza a 2ª posição: ");
+                sup = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Insira um carácter: ");
+                c = Convert.ToChar(Console.ReadLine());
+                char[] v = s.ToCharArray();
+                for (int i = inf; i <= sup; i++)
+                    v[i] = c;
+                s = new string(v);
+            }
+            catch (SystemException ex)
+            {
+                Console.WriteLine(ex.Message);
+                goto REP;
+            }
+
+            Console.WriteLine(s);
+                Console.ReadKey(); 
+
+        }*/
+    }
+}
